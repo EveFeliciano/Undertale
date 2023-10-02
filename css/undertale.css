@@ -23,7 +23,73 @@ h2{
     text-align: center;
     font-size: 40px;
 }
-
+h3{
+    font-family: 'Frisky';
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    font-family: '8bitoperator JVE';
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
 .banner{
     width: 100%;
 }
+.audio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.legenda{
+    font-family: '8bitoperator JVE';
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.musicbanner{
+    height: 250px;
+}
+.container{
+    margin-top: 100px;
+    padding: 150px;
+    border: 15px solid white;
+}
+.containerdiv {
+    padding: auto;
+    margin-top: 100px;
+    border: 15px solid white;
+    display: flex;
+}
+.left-content, .right-content {
+    width: 50%;
+    padding: 20px;
+    border: 5px solid #ddd;
+}
+.logozinho{
+    height: 100px;
+}
+button {
+    margin-top: 10px;
+    background-color: #1c1d1e; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remova a borda padrão do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão (ajuste conforme necessário) */
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    font-family: 'Frisky';
+    cursor: pointer; /* Altera o cursor para parecer clicável */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo ao passar o mouse */
+  /* Adicione qualquer outro estilo desejado aqui */
+  }
+  
+  button:hover {
+    background-color: #51575d; /* Cor de fundo do botão ao passar o mouse */
+  }
+  

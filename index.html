@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css\undertale.css">
     <link rel="shortcut icon" href="img//logo.png" type="image/x-icon">
     <link rel="preload" href="fontes/Frisky.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="estrutura.html">
     <title>Undertale</title>
 </head>
 <header>
@@ -18,8 +19,7 @@
             <nav class="navbar bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="Logo" width="30" height="24"
-                            class="d-inline-block align-text-top">
+                        <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                         Undertale
                     </a>
                 </div>
@@ -62,13 +62,92 @@
 </header>
 
 <body>
-
-    <img class="banner" src="img/banner.jpeg" alt="banner">
-
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner2sim.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <h1>Bem vindos!</h1>
 
-    <h2>Este site está em desenolvimento pela a melhor programadora do mundo!</h2>
+    <center><img class="musicbanner" src="img/gif2.gif" alt=""></center>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="ost/ost1.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
+        <p class="legenda">Undertale Soundtrack 071</p>
+    </div>
+
+
+    <h2>Este site é uma espécie de homenagem ao jogo UNDERTALE™, aqui você encontrará informações, curiosidades e coisas
+        aleatórias, que nós fãs do jogo amamos!
+    </h2>
+
+    <div class="container">
+        <h1>Explicando o jogo</h1>
+
+        <h2>Undertale" é um jogo independente de RPG (Role-Playing Game) desenvolvido por Toby Fox e lançado em 2015.
+            Ele se
+            destaca por sua abordagem única e inovadora em relação à narrativa, ao combate e à interação com os
+            personagens.
+            O jogo é frequentemente elogiado por sua trilha sonora cativante, personagens memoráveis e escolhas morais
+            que
+            afetam profundamente o desenvolvimento da história.
+
+            A história de "Undertale" gira em torno de um personagem jogador (chamado de "Frisk" por padrão, mas você
+            pode
+            escolher outro nome) que cai em um mundo subterrâneo habitado por monstros exilados. O objetivo do jogador é
+            encontrar uma maneira de sair desse mundo e voltar à superfície. O jogo oferece duas principais rotas de
+            jogo: a
+            Pacifista e a Genocida.
+        </h2>
+    </div>
+
+    <div class="containerdiv">
+        <div class="left-content">
+            <!-- Conteúdo do container esquerdo -->
+            <h3>Rota Pacifista</h3>
+            <center><img class="logozinho" src="img/sansdobem.webp" alt=""></center>
+            <h4>Nesta rota, os jogadores são encorajados a não matar nenhum monstro e, em vez disso,
+                resolver conflitos através da conversa e da empatia. Isso leva a uma experiência mais positiva e permite
+                aos jogadores desenvolver relacionamentos profundos com os personagens, explorando suas histórias de
+                fundo e resolvendo seus problemas.
+            </h4>
+        </div>
+        <div class="right-content">
+            <!-- Conteúdo do container direito -->
+            <h3>Rota Genocida</h3>
+            <center><img class="logozinho" src="img/sansdomal2.gif" alt=""></center>
+            <h4>Ao contrário da rota pacifista, esta rota envolve matar todos os monstros no jogo. Isso leva a uma
+                história muito mais sombria e perturbadora, com consequências drásticas para o mundo do jogo. A rota
+                genocida é notória por suas batalhas desafiadoras e pela exploração dos aspectos mais sombrios da
+                psicologia do jogador.
+            </h4>
+        </div>
+    </div>
+    
+        <a href="estrutura.html">
+        <button>Conheca mais sobre a estrutura do jogo</button>
 
 
     <script src="js\bootstrap.bundle.js"></script>
