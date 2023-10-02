@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Frisky';
+    src: url(../fontes/Frisky.woff);
+}
+@font-face {
+    font-family: '8bitoperator JVE';
+    src: url(../fontes/8bitoperator-JVE.woff);
+}
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Frisky';
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+
+h2{
+    font-family: '8bitoperator JVE';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.banner{
+    width: 100%;
+}
