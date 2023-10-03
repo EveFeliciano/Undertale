@@ -1,13 +1,81 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="css/undertale.css">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="css\bootstrap-grid.css">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\undertale.css">
+    <link rel="shortcut icon" href="img//logo.png" type="image/x-icon">
+    <link rel="preload" href="fontes/Frisky.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="estrutura.html">
+    <title>Como jogar</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="pagina3.html">PERSONAGENS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img class="bannerest" src="img/banner5.webp" alt="">
     <h1>Conhecendo a estrutura do jogo</h1>
-  </body>
+    <center><img class="musicbanner" src="img/torielgifmao.gif" alt=""></center>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="ost/ost2.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
+        <p class="legenda">Undertale Soundtrack 004-Fallen down</p>
+    </div>
+
+    <div class="container">
+        <h3>Ja comentamos sobre a estrutura genocida e pacifista, mas como ela funciona na pratica?</h3>
+        <h2>Basicamente, quando a humana Frisk cai no buraco ela é obrigada a entrar em combate com as criaturas do
+            mundo, mas não necessariamente lutar. A escolha é tomada a partir desta tela:</h2>
+        <img src="img/barradeataque.PNG" alt="">
+        <h3>O que cada uma significa?</h3>
+        <div class="container4">
+            <div class="box">
+                <img src="img/atacar.png" alt="">
+                <h3>ATACAR</h3>
+                <h2>Atacar é o básico do princípio GENOCIDA, é usado para casos de combate. Caso queira um caminho
+                    pacifista, não há o porque usa-lo.</h2>
+            </div>
+
+            <div class="box">
+                <img src="img/conversar.png" alt="">
+                <h3>AGIR</h3>
+                <h2>Agir é uma forma ambígua, pode ser usado no estilo GENOCIDA ou PACIFISTA. Basicamente ali se formam
+                    opções de rebaixar o oponente para provoca-lo ou usar de sua habilidade carismática para contornar a
+                    batalha e deixar seu oponente de lado</h2>
+            </div>
+
+            <div class="box">
+                <img src="img/item.PNG" alt="">
+                <h3>ITEM</h3>
+                <h2>Item é acumulado a partir de seus ganhos no jogo, os itens são coletados aleatóriamente. Eles podem
+                    servir de diversas formas no jogo, o formato mais comum é o de RECUPERAR HP</h2>
+            </div>
+
+            <div class="box">
+                <img src="img/piedade.PNG" alt="">
+                <h3>PIEDADE</h3>
+                <h2>A piedade é o princípio do modo PACIFISTA, ele serve para basicamente, ter piedade de seus oponentes, deixar-los ir.</h2>
+            </div>
+        </div>
+
+    </div>
+        <a href="index.html">
+        <button>Voltar para início</button>
+        <center><img class="finalest" src="img/undertale-heart.gif" alt=""></center>
+</body>
+
 </html>

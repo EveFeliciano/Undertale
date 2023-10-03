@@ -11,6 +11,7 @@ body{
 }
 
 h1{
+    margin-top: 20px;
     font-family: 'Frisky';
     color: white;
     text-align: center;
@@ -18,12 +19,14 @@ h1{
 }
 
 h2{
+    margin-top: 10px;
     font-family: '8bitoperator JVE';
     color: white;
     text-align: center;
     font-size: 40px;
 }
 h3{
+    margin-top: 10px;
     font-family: 'Frisky';
     color: white;
     text-align: center;
@@ -92,4 +95,68 @@ button {
   button:hover {
     background-color: #51575d; /* Cor de fundo do botão ao passar o mouse */
   }
-  
+  .bannerest{
+    width: 100%;
+  }
+  .container4{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide a página em 2 colunas iguais */
+    grid-template-rows: repeat(2, 1fr); /* Divide a página em 2 linhas iguais */
+    gap: 20px; /* Espaçamento entre os containers (ajuste conforme necessário) */
+    height: 100%; /* Para preencher a altura da página */
+}
+
+.box{
+    margin-top: 50px;
+    background-color: #000000; /* Cor de fundo dos containers */
+    border: 5px solid white;
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno dos containers (ajuste conforme necessário) */
+    text-align: center; /* Alinha o texto ao centro */
+}
+.finalest{
+    padding: 30px;
+}
+nav {
+    background-color: black; /* Fundo preto */
+}
+
+ul {
+    list-style: none; /* Remova os marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centralize os itens horizontalmente */
+}
+
+li {
+    margin: 0 10px; /* Adicione espaço entre os itens */
+}
+
+a {
+    text-decoration: none; /* Remova a sublinhado dos links */
+    color: white; /* Texto branco */
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: 'Frisky';
+    transition: color 0.3s; /* Transição suave de cor ao passar o mouse */
+}
+
+a:hover {
+    color: gray; /* Cor do texto ao passar o mouse */
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divisões sejam empilhadas quando não couberem na largura */
+}
+
+.image {
+    flex: 0 0 calc(50% - 20px); /* Divide igualmente em duas colunas com espaço à esquerda e à direita */
+    margin: 10px; /* Adiciona espaço entre as divisões */
+    box-sizing: border-box; /* Inclui margens no cálculo de largura */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da divisão */
+    height: auto; /* Mantém a proporção da imagem */
+}
