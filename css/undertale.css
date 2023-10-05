@@ -94,14 +94,13 @@ h6{
 }
 button {
     margin-top: 10px;
-    background-color: #1c1d1e; /* Cor de fundo do botão */
+    background-color: #000000; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
-    border: none; /* Remova a borda padrão do botão */
+    border: solid white 2px /* Remova a borda padrão do botão */
     padding: 10px 20px; /* Espaçamento interno do botão (ajuste conforme necessário) */
     font-size: 16px; /* Tamanho da fonte do texto do botão */
     font-family: 'Frisky';
     cursor: pointer; /* Altera o cursor para parecer clicável */
-    border-radius: 5px; /* Borda arredondada */
     transition: background-color 0.3s ease; /* Transição suave para a mudança de cor de fundo ao passar o mouse */
   /* Adicione qualquer outro estilo desejado aqui */
   }
@@ -198,4 +197,9 @@ img {
 }
 .imgboss{
     height: 300px;
+}
+.imgsoul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
 }
